@@ -19,7 +19,6 @@ export class UsersService {
   }
 
   fetchUserById(id: number) {
-    return;
-    null;
+    return null;
   }
 }
