@@ -7,13 +7,9 @@ import {
   Get,
   Param,
   Post,
-  Query,
-  Req,
-  Res,
   HttpException,
   HttpStatus,
 } from '@nestjs/common';
-import { Request, Response } from 'express';
 import { CreateUserDto } from 'src/users/dtos/createUser.dto';
 import { UsersService } from 'src/users/services/users/users.service';
 
